@@ -35,6 +35,10 @@ services:
   packages:
   - name: Test1161Project
     version: "1.0"
+- serviceName: project.test1161.integrations:testSql2
+  packages:
+  - name: Test1161Project
+    version: "1.0"
 configurationVariables:
   ? artConnection.Test1161Project.project.test1161.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.oracle.OracleDataSource

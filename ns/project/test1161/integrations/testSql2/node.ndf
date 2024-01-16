@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">isldsadmin</value>
-    <value name="createdDate">1705430254306</value>
-    <value name="lastModifiedDate">1705430254306</value>
+    <value name="lastModifiedBy">isldsadmin</value>
+    <value name="lastModifiedDate">1705430294284</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">ae4610446f544f948ba119e240cb431b</value>
       <value name="group">default</value>
@@ -96,6 +95,14 @@
         </array>
         <array name="outputMap" type="object" depth="1">
         </array>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">Database_2</value>
+          <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.test1161.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2</value>
+        <value name="connectionType">webMethods Adapter for JDBC ExtendedConnection</value>
+        <Boolean name="accountReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
