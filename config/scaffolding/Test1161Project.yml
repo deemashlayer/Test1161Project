@@ -27,6 +27,14 @@ services:
   packages:
   - name: Test1161Project
     version: "1.0"
+- serviceName: project.test1161.integrations:testSql1
+  packages:
+  - name: Test1161Project
+    version: "1.0"
+- serviceName: project.test1161.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:Test1
+  packages:
+  - name: Test1161Project
+    version: "1.0"
 configurationVariables:
   ? artConnection.Test1161Project.project.test1161.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
   : com.wm.dd.jdbcx.oracle.OracleDataSource
@@ -73,7 +81,7 @@ configurationVariables:
   ? artConnection.Test1161Project.project.test1161.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
   : NO_TRANSACTION
   ? artConnection.Test1161Project.project.test1161.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionEnabled
-  : "false"
+  : "true"
   ? artConnection.Test1161Project.project.test1161.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
   : JDBC_BVT
   ? artConnection.Test1161Project.project.test1161.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.networkProtocol
